@@ -1,0 +1,219 @@
+/*
+* @Author: 王晶
+* @Date:   2018-12-16 16:03:00
+* @Last Modified by:   王晶
+* @Last Modified time: 2019-01-06 16:28:25
+*/
+* {
+    padding: 0;
+    margin: 0;
+}
+.clearfix:after {
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+ul,li,ol {
+    list-style: none;
+}
+body {
+    background: #f8f7f6;
+    font-family: '微软雅黑';
+}
+/*----top开始-----*/
+.top{
+    background-color: #ffff;
+    width: 100%;
+    height: 128px;
+    border-bottom: 1px solid #fe6c00;
+    position:fixed; 
+    top:0; 
+    z-index:1; 
+}
+.top .bigdiv{
+    margin:0 auto;
+    width: 1180px;
+    height: 160px;
+    padding-top: 10px;
+    position: relative;
+}
+.bigdiv .fi{
+    color: #9a9791;
+    font-size: 13px;
+    float: left;
+}
+.bigdiv .div1{
+    height: 19px;
+    width: 725px;
+    overflow:hidden;
+    position: relative;
+    position: absolute;
+    left: 450px;
+    float: left;
+}
+.div1 .qq{
+    position: absolute;
+    top: -30px;
+    left: 20px;
+}
+.div1 .wx{
+   position:absolute;
+   top:-52px;
+   left: 50px;
+}
+.div1 .wb{
+   position:absolute;
+   top:-75px;
+   left: 80px;
+}
+.div1 a{
+    color: #9a9791;
+    font-size: 13px;
+    padding-left: 10px;
+}
+.bigdiv .div2{
+    height: 45px;
+    width: 930px;
+    position: relative;
+    position: absolute;
+    top: 57px;
+    left: 250px;
+}
+.div2 .input{
+    border: 4px solid #fe6c00;
+    border-radius: 2px;
+    height: 35px;
+    width: 565.5px;
+    float: left;
+}
+.div2 input{
+    height: 34px;
+    width: 480.5px;
+    border: 1px solid #fe6c00;
+    float: left;
+}
+.div2 img{
+    float: left;
+}
+.div2 .sdiv{
+    border: 1px solid #f0efed;
+    width: 86px;
+    height: 40px;
+    color: #a89791;
+    font-size: 12px;
+    float: left;
+}
+.sdiv .img1{
+    width: 88px;
+    height: 25px;
+    background-image:url(img/fuwu.png);
+     background-position: center center;
+      background-repeat: no-repeat;
+}
+.sdiv .img2{
+    width: 88px;
+    height: 25px;
+    background-image:url(img/xx.png);
+     background-position: center center;
+      background-repeat: no-repeat;  
+}
+.div2 .img3{
+    background-color: #ff4d04;
+    color:#ffffff;
+    padding-left: 7px;
+    font-size: 14px;
+    padding-top:13px;
+    height:27px;
+    position: absolute;
+    right: 0px;
+}
+.bigdiv .div3{
+    height: 45px;
+    margin-top: 20px;
+    position: absolute;
+    top:90px ;
+    left: 240px;
+}
+.div3 .ba{
+    height: 15px;
+    border-right: 1px solid #ebe7e7;
+    float: left;
+    padding-left: 9px;
+    padding-right: 9px;
+    line-height: 15px;
+    font-size: 13px;
+}
+.div3 .a{
+    color: #ff0000;
+}
+.div3 .b{
+    color: #c0a9d3;
+}
+/*----top结束-----*/
+/*----bottom开始-----*/
+.bottom{
+    height: 345px;
+    width: 1180px;
+    margin:0 auto;
+    position: relative;
+    position: absolute;
+    top: 710px;
+    left:170px;
+}
+.bottom .nav1{
+    width: 945px;
+    height: 162px;
+    border-bottom: 1px solid #ebeae8;
+    position: absolute;
+    left:147px;
+    top: 0px;
+    padding-top: 20px;
+    padding-left: 85px;
+}
+.nav1 ul>li{
+    float: left;
+    width: 131px;
+    height: 30px;
+    line-height: 22px;
+    text-align:center;
+    font-size: 16px;
+}
+.nav1 a{
+    font-size: 12px;
+    color: #666560;
+    height: 25px;
+    line-height: 25px;
+
+}
+.bottom .nav2{
+    height: 15px;
+    border-right: 1px solid #ebe7e7;
+    float: left;
+    padding-left: 9px;
+    padding-right: 9px;
+    line-height: 15px;
+    font-size: 13px;
+    color:#666560;
+}
+.bottom .text{
+    position: absolute;
+    top: 214px;
+    left: 54px;
+    height: 76px;
+    text-align: center;
+    line-height:26px;
+    width: 1070px;
+    color: #9a9791;
+    font-size: 13px;
+}
+.bottom .nav3{
+    position: absolute;
+    top: 300px;
+    left: 190px;
+}
+/*----bottom结束-----*/
